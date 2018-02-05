@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ubmp_v1r1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -750,4 +751,12 @@ F 3 "" H 10350 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 10350 4550
+Text Label 8900 4300 0    50   ~ 0
+DP_P
+Text Label 8900 4200 0    50   ~ 0
+DM_P
+Text Label 8900 4100 0    50   ~ 0
+DPU
+Text Label 2350 2700 0    50   ~ 0
+LED
 $EndSCHEMATC
