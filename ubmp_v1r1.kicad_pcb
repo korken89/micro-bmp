@@ -59,7 +59,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.08)
     (aux_axis_origin 0 0)
-    (visible_elements FFF9FF9F)
+    (visible_elements FFFDFFBF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -581,7 +581,7 @@
     (tags resistor)
     (path /5A7A36D6)
     (attr smd)
-    (fp_text reference R3 (at 0 0.9 90) (layer F.SilkS)
+    (fp_text reference R3 (at -1.6 0 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value 470 (at 0 1.5 270) (layer F.Fab)
