@@ -759,4 +759,15 @@ Text Label 8900 4100 0    50   ~ 0
 DPU
 Text Label 2350 2700 0    50   ~ 0
 LED
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO1
+U 1 1 5A78D4B8
+P 850 7500
+F 0 "#LOGO1" H 850 7775 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 850 7275 50  0001 C CNN
+F 2 "" H 850 7500 50  0001 C CNN
+F 3 "~" H 850 7500 50  0001 C CNN
+	1    850  7500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

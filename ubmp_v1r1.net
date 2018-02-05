@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/emifre/Git/micro-bmp/ubmp_v1r1.sch)
-    (date "mån  5 feb 2018 19:42:26")
+    (date "mån  5 feb 2018 20:48:25")
     (tool "Eeschema no-vcs-found-fe62760~61~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
