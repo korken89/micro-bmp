@@ -1,6 +1,6 @@
 # Micro Black Magic Probe (µBMP)
 
-A small Black Magic Probe based on the pinout of the STLink V2 support firmware which has SWO and UART pinout. Designed to stick directly into a USB port.
+A small [Black Magic Probe](https://github.com/blacksphere/blackmagic) based on the pinout of the STLink V2 support firmware which has SWO and UART pinout. Designed to stick directly into a USB port.
 
 ## Resources
 
