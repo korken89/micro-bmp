@@ -19,7 +19,7 @@ U 1 1 5A784725
 P 5600 3200
 F 0 "U1" H 2850 4950 50  0000 C CNN
 F 1 "STM32F103CBUx" H 8100 4950 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 8400 4875 50  0001 R TNN
+F 2 "ubmp:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 8400 4875 50  0001 R TNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 5600 3200 50  0001 C CNN
 	1    5600 3200
 	1    0    0    -1  
@@ -252,7 +252,7 @@ U 1 1 5A786E94
 P 3300 7050
 F 0 "U2" H 3300 7392 50  0000 C CNN
 F 1 "MIC5245-3.3" H 3300 7301 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3300 7375 50  0001 C CNN
+F 2 "ubmp:SOT-23-5_Rounded" H 3300 7375 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf" H 3300 7050 50  0001 C CNN
 	1    3300 7050
 	1    0    0    -1  
