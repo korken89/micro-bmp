@@ -21,7 +21,7 @@ gerber_types = [
     {'from': '-F.Cu.gbr',      'to': '.GTL'},
     {'from': '-F.Mask.gbr',    'to': '.GTS'},
     {'from': '-F.SilkS.gbr',   'to': '.GTO'},
-    {'from': '-PTH.drl',       'to': '.TXT'},
+    {'from': '.drl',           'to': '.TXT'},
     {'from': '-Inner1.Cu.gbr', 'to': '.G2L'},
     {'from': '-Inner2.Cu.gbr', 'to': '.G3L'},
 ]
