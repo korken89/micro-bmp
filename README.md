@@ -35,10 +35,10 @@ make -j4 PROBE_HOST=stlink
 Flash the `uBMP`:
 
 ```bash
-> cp ../../stlink/build/Release/st-flash .
-> ./st-flash erase
-> ./st-flash write blackmagic_dfu.bin 0x8000000
-> ./st-flash --reset write blackmagic.bin 0x8002000
+cp ../../stlink/build/Release/st-flash .
+./st-flash erase
+./st-flash write blackmagic_dfu.bin 0x8000000
+./st-flash --reset write blackmagic.bin 0x8002000
 ```
 
 ## Images
