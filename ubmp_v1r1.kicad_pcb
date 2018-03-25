@@ -1863,7 +1863,7 @@
   (gr_text "Emil Fresk" (at 103.8 111.6) (layer B.SilkS) (tstamp 5ACBC839)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "µBMP v1.0" (at 101.8 108.6) (layer B.SilkS)
+  (gr_text "µBMP v1.1" (at 101.8 108.6) (layer B.SilkS)
     (effects (font (size 2 2) (thickness 0.4)) (justify mirror))
   )
   (gr_text CK (at 99.2 103.8) (layer B.SilkS) (tstamp 5ADC6CFE)
