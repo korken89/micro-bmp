@@ -1,4 +1,4 @@
-(module C_0603_1608Metric_Rounded (layer F.Cu) (tedit 5A81E4CF)
+(module C_0603_1608Metric_Rounded (layer F.Cu) (tedit 5AB7B792)
   (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
   (tags capacitor)
   (attr smd)
@@ -21,8 +21,8 @@
   (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
   (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
   (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
-  (pad 2 smd roundrect (at 0.875 0) (size 0.67 1) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.25))
-  (pad 1 smd roundrect (at -0.875 0) (size 0.67 1) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.25))
+  (pad 2 smd roundrect (at 0.8 0) (size 0.75 1) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.25))
+  (pad 1 smd roundrect (at -0.8 0) (size 0.75 1) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.25))
   (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
