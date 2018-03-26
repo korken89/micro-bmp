@@ -417,28 +417,6 @@ F 3 "" H 2000 2000 50  0001 C CNN
 	1    2000 2000
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R6
-U 1 1 5A7A5FC3
-P 2150 1800
-F 0 "R6" V 2050 1800 50  0000 C CNN
-F 1 "1.5k" V 2150 1800 50  0000 C CNN
-F 2 "ubmp:R_0402_1005Metric_Rounded" V 2080 1800 50  0001 C CNN
-F 3 "~" H 2150 1800 50  0001 C CNN
-	1    2150 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3V #PWR04
-U 1 1 5A7A5FFD
-P 2000 1800
-F 0 "#PWR04" H 2000 1650 50  0001 C CNN
-F 1 "+3.3V" V 2015 1928 50  0000 L CNN
-F 2 "" H 2000 1800 50  0001 C CNN
-F 3 "" H 2000 1800 50  0001 C CNN
-	1    2000 1800
-	0    -1   -1   0   
-$EndComp
 Text Label 1300 5100 2    50   ~ 0
 BMP_TX
 Text Label 1300 5000 2    50   ~ 0
@@ -1130,4 +1108,36 @@ F 3 "" H 2700 3300 50  0001 C CNN
 	1    2700 3300
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5AB8D86C
+P 2200 1800
+F 0 "C7" H 2292 1846 50  0000 L CNN
+F 1 "100n" H 2292 1755 50  0000 L CNN
+F 2 "ubmp:C_0402_1005Metric_Rounded" H 2200 1800 50  0001 C CNN
+F 3 "~" H 2200 1800 50  0001 C CNN
+	1    2200 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5AB8D970
+P 2100 1800
+F 0 "#PWR04" H 2100 1550 50  0001 C CNN
+F 1 "GND" V 2105 1672 50  0000 R CNN
+F 2 "" H 2100 1800 50  0001 C CNN
+F 3 "" H 2100 1800 50  0001 C CNN
+	1    2100 1800
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	10000 3050 9200 3050
+Wire Notes Line
+	9900 5650 9900 4650
+Wire Notes Line
+	9900 4650 8900 4650
+Wire Notes Line
+	8900 4650 8900 5650
+Wire Notes Line
+	8900 5650 9900 5650
 $EndSCHEMATC
