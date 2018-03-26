@@ -839,8 +839,6 @@ $EndComp
 Wire Wire Line
 	2500 3100 2700 3100
 Wire Wire Line
-	2700 4500 2550 4500
-Wire Wire Line
 	8700 3300 8500 3300
 Wire Wire Line
 	8500 3400 8700 3400
@@ -973,105 +971,6 @@ Wire Wire Line
 Wire Wire Line
 	3000 5850 3050 5850
 $Comp
-L Device:R R1
-U 1 1 5AB8B470
-P 1750 4350
-F 0 "R1" V 1650 4350 50  0000 C CNN
-F 1 "100" V 1750 4350 50  0000 C CNN
-F 2 "ubmp:R_0402_1005Metric_Rounded" V 1680 4350 50  0001 C CNN
-F 3 "~" H 1750 4350 50  0001 C CNN
-	1    1750 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 4300 2350 4300
-Wire Wire Line
-	2350 4300 2350 4200
-Text Label 2500 4400 2    50   ~ 0
-BMP_SWCLK_TCK
-Wire Wire Line
-	2500 4400 2700 4400
-Wire Wire Line
-	2550 4500 2550 4550
-Connection ~ 2550 4500
-Wire Wire Line
-	2550 4500 2500 4500
-$Comp
-L Device:R R17
-U 1 1 5AB99A85
-P 8950 2650
-F 0 "R17" V 8850 2650 50  0000 C CNN
-F 1 "1.5k" V 8950 2650 50  0000 C CNN
-F 2 "ubmp:R_0402_1005Metric_Rounded" V 8880 2650 50  0001 C CNN
-F 3 "~" H 8950 2650 50  0001 C CNN
-	1    8950 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R18
-U 1 1 5AB99B2D
-P 9150 2650
-F 0 "R18" V 9050 2650 50  0000 C CNN
-F 1 "1.5k" V 9150 2650 50  0000 C CNN
-F 2 "ubmp:R_0402_1005Metric_Rounded" V 9080 2650 50  0001 C CNN
-F 3 "~" H 9150 2650 50  0001 C CNN
-	1    9150 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR01
-U 1 1 5AB99BF0
-P 8950 2500
-F 0 "#PWR01" H 8950 2350 50  0001 C CNN
-F 1 "+3.3V" V 8965 2628 50  0000 L CNN
-F 2 "" H 8950 2500 50  0001 C CNN
-F 3 "" H 8950 2500 50  0001 C CNN
-	1    8950 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR026
-U 1 1 5AB99C87
-P 9150 2500
-F 0 "#PWR026" H 9150 2250 50  0001 C CNN
-F 1 "GND" H 9155 2327 50  0000 C CNN
-F 2 "" H 9150 2500 50  0001 C CNN
-F 3 "" H 9150 2500 50  0001 C CNN
-	1    9150 2500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9150 2800 9150 2900
-Wire Wire Line
-	9150 2900 8950 2900
-Wire Wire Line
-	8950 2900 8950 2800
-Wire Wire Line
-	8500 3100 8950 3100
-Wire Wire Line
-	8950 3100 8950 2900
-Connection ~ 8950 2900
-Text Label 8700 3100 0    50   ~ 0
-STLINK_AIN_1
-Wire Wire Line
-	1750 4550 1750 4500
-Wire Wire Line
-	1750 4550 2550 4550
-Wire Wire Line
-	2350 4200 1750 4200
-Text Label 1750 4200 0    50   ~ 0
-STLINK_SWDIO_IN
-Text Notes 1600 3950 0    50   ~ 0
-STLink compatibility
-Wire Notes Line
-	1950 4000 1950 4100
-Wire Notes Line
-	2200 4000 2200 4300
-Wire Notes Line
-	1600 4000 2350 4000
-Text Notes 9250 3000 0    50   ~ 0
-STLink compatibility
-$Comp
 L Device:R R19
 U 1 1 5ABBFC68
 P 2150 2800
@@ -1098,17 +997,6 @@ STM_ID2
 Wire Wire Line
 	2300 2800 2700 2800
 $Comp
-L power:GND #PWR0101
-U 1 1 5ABC82DD
-P 2700 3300
-F 0 "#PWR0101" H 2700 3050 50  0001 C CNN
-F 1 "GND" V 2705 3172 50  0000 R CNN
-F 2 "" H 2700 3300 50  0001 C CNN
-F 3 "" H 2700 3300 50  0001 C CNN
-	1    2700 3300
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C_Small C7
 U 1 1 5AB8D86C
 P 2200 1800
@@ -1131,8 +1019,6 @@ F 3 "" H 2100 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Notes Line
-	10000 3050 9200 3050
-Wire Notes Line
 	9900 5650 9900 4650
 Wire Notes Line
 	9900 4650 8900 4650
@@ -1140,4 +1026,10 @@ Wire Notes Line
 	8900 4650 8900 5650
 Wire Notes Line
 	8900 5650 9900 5650
+Wire Wire Line
+	2500 4500 2700 4500
+NoConn ~ 2700 4400
+NoConn ~ 2700 4300
+NoConn ~ 2700 3300
+NoConn ~ 8500 3100
 $EndSCHEMATC
