@@ -881,7 +881,7 @@ Text Notes 7350 7500 0    79   ~ 0
 Text Notes 8150 7650 0    67   ~ 0
 2018-02-16
 Text Notes 10600 7650 0    67   ~ 0
-1.0
+1.1
 Wire Wire Line
 	8500 4200 9700 4200
 Text Notes 9100 5600 0    50   ~ 0
