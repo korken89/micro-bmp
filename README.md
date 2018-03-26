@@ -43,12 +43,7 @@ cp ../../stlink/build/Release/st-flash .
 
 ## Images
 
-### Renders
-
-![alt text](ubmp_v1r1_top.png "Top")
-![alt text](ubmp_v1r1_bottom.png "Bottom")
-
-### First batch (2 versions)
+### First batch
 
 ![alt text](ubmp_mounted.jpg "Mounted")
 ![alt text](ubmp_used.jpg "In use")
