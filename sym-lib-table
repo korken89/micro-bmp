@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Interface_ESD)(type Legacy)(uri ${KIPRJMOD}/Interface_ESD.lib)(options "")(descr ""))
+)
