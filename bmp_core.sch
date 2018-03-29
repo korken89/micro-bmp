@@ -760,9 +760,9 @@ Text Label 4050 6050 2    50   ~ 0
 BMP_SWCLK_TCKo
 Text Label 5000 6050 0    50   ~ 0
 BMP_TDOo
-Text Label 4050 6150 2    50   ~ 0
-BMP_TDIo
 Text Label 5000 6150 0    50   ~ 0
+BMP_TDIo
+Text Label 4050 6150 2    50   ~ 0
 BMP_RSTo
 Text Label 4050 6250 2    50   ~ 0
 BMP_SWDIO_TMSo
