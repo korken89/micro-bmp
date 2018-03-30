@@ -1193,7 +1193,7 @@
       (net 3 +5V))
   )
 
-  (module Symbol:OSHW-Logo2_9.8x8mm_SilkScreen locked (layer B.Cu) (tedit 0) (tstamp 5ADC3DB5)
+  (module Symbol:OSHW-Logo2_9.8x8mm_SilkScreen (layer B.Cu) (tedit 0) (tstamp 5ADC3DB5)
     (at 105 103 180)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
