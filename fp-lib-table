@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name passive)(type KiCad)(uri /home/emifre/Git/kicad_libs/footprints/passive.pretty)(options "")(descr ""))
+  (lib (name qfn)(type KiCad)(uri /home/emifre/Git/kicad_libs/footprints/qfn.pretty)(options "")(descr ""))
+  (lib (name usb)(type KiCad)(uri /home/emifre/Git/kicad_libs/footprints/usb.pretty)(options "")(descr ""))
+  (lib (name connectors)(type KiCad)(uri "$(KIPRJMOD)/kicad_libs/footprints/connectors.pretty")(options "")(descr ""))
+  (lib (name crystals)(type KiCad)(uri "$(KIPRJMOD)/kicad_libs/footprints/crystals.pretty")(options "")(descr ""))
+  (lib (name dfn)(type KiCad)(uri "$(KIPRJMOD)/kicad_libs/footprints/dfn.pretty")(options "")(descr ""))
+  (lib (name sot)(type KiCad)(uri /home/emifre/Git/kicad_libs/footprints/sot.pretty)(options "")(descr ""))
+)
