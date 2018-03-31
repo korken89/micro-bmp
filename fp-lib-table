@@ -6,4 +6,5 @@
   (lib (name crystals)(type KiCad)(uri ${KIPRJMOD}/kicad_libs/footprints/crystals.pretty)(options "")(descr ""))
   (lib (name dfn)(type KiCad)(uri ${KIPRJMOD}/kicad_libs/footprints/dfn.pretty)(options "")(descr ""))
   (lib (name sot)(type KiCad)(uri ${KIPRJMOD}/kicad_libs/footprints/sot.pretty)(options "")(descr ""))
+  (lib (name leds)(type KiCad)(uri ${KIPRJMOD}/kicad_libs/footprints/leds.pretty)(options "")(descr ""))
 )
