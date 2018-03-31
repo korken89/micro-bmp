@@ -393,7 +393,7 @@
     )
   )
 
-  (module dfn:DFN-16-1EP_1.6x4mm_P0.5mm (layer F.Cu) (tedit 5ABF56CF) (tstamp 5ACB16B7)
+  (module dfn:DFN-16-1EP_1.6x4mm_P0.5mm (layer F.Cu) (tedit 5ABF5CD7) (tstamp 5ACB16B7)
     (at 109.2 106.5)
     (descr "DHC Package; 16-Lead Plastic DFN (5mm x 3mm) (see Linear Technology DFN_16_05-08-1706.pdf)")
     (tags "DFN 0.5")
@@ -542,7 +542,7 @@
     )
   )
 
-  (module dfn:DFN-6-1EP_1.2x1.6mm_P0.5mm (layer F.Cu) (tedit 5ABF56A4) (tstamp 5ACB0115)
+  (module dfn:DFN-6-1EP_1.2x1.6mm_P0.5mm (layer F.Cu) (tedit 5ABF5D0B) (tstamp 5ACB0115)
     (at 94.2 102 180)
     (descr "DC6 Package; 6-Lead Plastic DFN (2mm x 2mm) (see Linear Technology DFN_6_05-08-1703.pdf)")
     (tags "DFN 0.5")
@@ -863,7 +863,7 @@
     )
   )
 
-  (module passive:R_0603_1608Metric_Rounded (layer F.Cu) (tedit 5ABF56C0) (tstamp 5AF1B7EA)
+  (module passive:R_0603_1608Metric_Rounded (layer F.Cu) (tedit 5ABF6048) (tstamp 5AF1B7EA)
     (at 94.25 111.05 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -899,7 +899,7 @@
     )
   )
 
-  (module qfn:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm (layer F.Cu) (tedit 5ABF56CC) (tstamp 5AF1B7A1)
+  (module qfn:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm (layer F.Cu) (tedit 5ABF5DB1) (tstamp 5AF1B7A1)
     (at 103 105.495 90)
     (descr "UK Package; 48-Lead Plastic QFN (7mm x 7mm); (see Linear Technology QFN_48_05-08-1704.pdf)")
     (tags "QFN 0.5")
