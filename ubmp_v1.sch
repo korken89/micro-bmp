@@ -49,7 +49,7 @@ DP
 Text Label 6050 3850 0    50   ~ 0
 DM
 $Comp
-L Connector_Specialized:USB_A J2
+L Connector:USB_A J2
 U 1 1 5A80B5EC
 P 6500 3950
 F 0 "J2" H 6350 4300 50  0000 C CNN
@@ -99,9 +99,9 @@ $EndComp
 Text Notes 7350 7500 0    79   ~ 0
 µBMP
 Text Notes 8150 7650 0    67   ~ 0
-2018-03-27
+2018-11-18
 Text Notes 10600 7650 0    67   ~ 0
-1.1
+1.3
 Text Notes 7100 6850 0    79   ~ 0
 Note that this board is designed to work with the \nSTLink V2 version of Black Magic Probe firmware.
 Text Notes 7100 7050 0    79   ~ 0
@@ -126,7 +126,6 @@ Wire Wire Line
 	5600 3550 5600 3750
 Wire Wire Line
 	5600 3750 5450 3750
-Connection ~ 6500 3550
 Wire Wire Line
 	6150 4150 6150 4050
 Wire Wire Line
