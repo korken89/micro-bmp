@@ -1,8 +1,7 @@
 # Temporary files
 *.000
-*.bak
-*.bck
-*.kicad_pcb-bak
+*bak*
+*bck*
 *~
 _autosave-*
 *.tmp
@@ -14,3 +13,6 @@ _autosave-*
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+
+# Folders
+gerbers
