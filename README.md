@@ -4,6 +4,10 @@ A small [Black Magic Probe](https://github.com/blacksphere/blackmagic) based on 
 
 ## Changes
 
+### v1.4.1
+
+* Reinforced the USB-C plug's mounting pads
+
 ### v1.4
 
 * Changed to USB-C plug
