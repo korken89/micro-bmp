@@ -66,6 +66,9 @@ cp ../../stlink/build/Release/st-flash .
 
 ## Images
 
+### USB-C version (v1.4)
+![alt text](ubmp_v1_4.jpg "Mounted")
+
 ### Second batch (v1.2)
 ![alt text](ubmp_v1_2.jpg "Mounted")
 
