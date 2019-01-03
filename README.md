@@ -4,6 +4,10 @@ A small [Black Magic Probe](https://github.com/blacksphere/blackmagic) based on 
 
 ## Changes
 
+### v1.4
+
+* Changed to USB-C plug
+
 ### v1.3
 
 * Added LED on the 5V line to see when the fuse is "blown"
